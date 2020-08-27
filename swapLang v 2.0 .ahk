@@ -1,4 +1,4 @@
-﻿#NoTrayIcon
+#NoTrayIcon
 #NoEnv
 !c::
 KeyWait !
@@ -28,7 +28,7 @@ Else
 
 SwapLang(text,target)
 	{
-	 lang1=abcdefghijklmnopqrstuvwxyz,;'\?.] [` ; english
+	 lang1=abcdefghijklmnopqrstuvwxyz,;'\?.] [\ ; english
          lang2=شذزیثبلاهتنمئدخحضقسفعرصطغظوکگپ؟.چ جپ ; other language
    if (target = 1)
    	Source = 2
