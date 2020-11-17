@@ -22,6 +22,8 @@ keywait n
    Run Notepad
 return
 
++space::Send {U+200C}
+
 #t::
 keywait Rwin
 keywait t
