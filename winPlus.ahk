@@ -15,6 +15,9 @@ keywait c
    run, calc.exe
 return
 
+^!t:: ; Ctrl + Alt + T
+    Run "cmd.exe", "", "RunAs" ; Run Command Prompt as administrator
+return
 
 #n::
 keywait Rwin
@@ -23,6 +26,8 @@ keywait n
 return
 
 +space::Send {U+200C}
+
+CapsLock::Backspace
 
 #t::
 keywait Rwin
